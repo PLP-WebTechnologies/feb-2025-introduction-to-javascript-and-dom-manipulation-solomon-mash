@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Manipulation Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .highlight {
+      color: crimson;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 id="main-heading">Welcome to JavaScript DOM Manipulation</h1>
+  </header>
+
+  <section>
+    <p id="description">Click the buttons below to see JavaScript in action.</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeStyle()">Change Style</button>
+    <button onclick="addElement()">Add Element</button>
+    <button onclick="removeElement()">Remove Element</button>
+  </section>
+
+  <article>
+    <h2>Demo List</h2>
+    <ul id="demo-list">
+      <li>HTML Structure</li>
+      <li>CSS Styling</li>
+      <li>JavaScript DOM</li>
+    </ul>
+  </article>
+
+  <footer>
+    <p>&copy; 2025 JavaScript Learner</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
